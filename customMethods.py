@@ -99,3 +99,9 @@ def ndNormalCounts(mean, sigma, Bins):
         ndNormalCounts(m, s, bins) for m, s, bins in zip(mean, sigma, Bins)
     )
     return counts
+
+#For interactive color selection
+def f(color1):
+	return color1
+def g(color2):
+	return color2
